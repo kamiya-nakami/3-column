@@ -29,19 +29,6 @@ section p {
     padding: 1rem 0 6rem 0;
     color: hsla(0, 0%, 100%, 0.75);
 }
-button {
-    width: 8rem;
-    height: 2rem;
-    border-radius: 2rem;
-    border: .1rem solid #fff;    
-    transition: all 0.25 ease;
-}
-button:hover {
-    background: transparent;
-    cursor: pointer;
-    position: relative;
-    color: #fff;
-}
 .SEDANS button {
     color: hsl(31, 77%, 52%);
 }
@@ -61,6 +48,20 @@ button:hover {
     color: hsl(179, 100%, 13%);
 }
 
+button {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: .15rem solid #fff;   
+    transition: all 0.25 ease;
+
+}
+button:hover {
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+}
 @media only screen and (max-width:400px){
     main {
         display: grid;
